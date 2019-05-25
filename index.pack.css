@@ -1,0 +1,148 @@
+/*
+<link href="https://codepen.io/gnjo/pen/MRRLPq.css?terminal=1" rel="stylesheet"/>
+  <link href="https://codepen.io/gnjo/pen/oRNjPR.css?main=1" rel="stylesheet"/>  
+*/
+/*
+word:#fff
+wipe:#568
+mark:#f26
+font-size:14px;
+margin:4rem;
+background:black;
+*/
+/*color*/
+@import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono");
+.wipe {
+  color: #568;
+  font-size: 14px;
+}
+
+.mark {
+  color: #f26;
+  font-size: 14px;
+}
+
+.word {
+  color: #fff;
+  font-size: 14px;
+}
+
+.ed, [data-editable] {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+* {
+  font-family: 'share tech mono',sans-serif;
+  outline: none;
+}
+
+/*chrome bar*/
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 0px;
+  border: 2px solid black;
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 12px;
+}
+
+::-webkit-scrollbar-button {
+  background-color: white;
+  height: 0px;
+  width: 0px;
+  border-radius: 0px;
+}
+
+/***/
+::selection {
+  background: #9ab;
+}
+
+/***/
+body {
+  background-color: black;
+  color: white;
+  margin: 4rem auto;
+  height: calc(100vh - 8rem);
+  width: 52rem;
+}
+
+#terminal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#top {
+  width: 100%;
+  height: calc(100% - 160px);
+  border: 2px solid white;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+#bottom {
+  width: 100%;
+  height: 160px;
+  margin-top: 1rem;
+}
+
+/****/
+.test-orange {
+  background-color: orange;
+}
+
+.test-red {
+  background-color: red;
+}
+
+.test-long {
+  height: 200vh;
+}
+
+.test-pad {
+  padding: 0 4rem;
+}
+
+/*****/
+.modal ol > li:after {
+  content: attr(line) " " attr(updated);
+}
+
+.modal ol {
+  padding-left: 2rem;
+}
+
+.modal ol > li:hover {
+  color: #f26;
+}
+
+.modal ol > li {
+  font-size: 14px;
+  /* color: #2cc; */
+}
+
+.modal ol {
+  padding-left: 2rem;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+label.upd:hover, label.new:hover {
+  color: #f26;
+}
+
+label.upd {
+  color: white;
+}
+
+label.new {
+  color: white;
+}
