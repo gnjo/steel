@@ -4,20 +4,18 @@ steel
 # 拡張
 ```
 let app={}
-app.join=(key,fn)=>{
- app[key]=fn;
- return app;
-}
-app.log=()=>{
- console.log(Object.keys(app))
- return app;
-}
-app
- .join(save,fn)
- .join(load,fn)
- .join(id,'')
- .log()
- ;
- ...
+
+;(function(app){
+ app.xyz=()=>{
+ } 
+})(app);
+```
+
+# seqence
+```
+//百番台から始める。間に挿入する場合は十番台、一桁台を使う。
+00100:
+00200:
+00300:
 
 ```
