@@ -6,6 +6,7 @@ steel
  script(src="https://codepen.io/gnjo/pen/NVybqV.js?lcr=2")
  script(src="https://gnjo.github.io/use.js")
  script(src="https://gnjo.github.io/steel/use.pack.js")
+ script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11")  
  // script(src="https://gnjo.github.io/keyCmd.js")
  // script(src="https://gnjo.github.io/e.js")
  // script(src="https://gnjo.github.io/filter.js?v=2")
