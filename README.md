@@ -2,8 +2,9 @@
 steel
 
 ```
- link(href="https://codepen.io/gnjo/pen/NVybqV.css?lcr=2" rel="stylesheet")
- script(src="https://codepen.io/gnjo/pen/NVybqV.js?lcr=2")
+ link(href="https://codepen.io/gnjo/pen/arXVoG.css?lcr=1" rel="stylesheet")
+ script(src="https://codepen.io/gnjo/pen/arXVoG.js?lcr=1")
+
  script(src="https://gnjo.github.io/use.js")
  script(src="https://gnjo.github.io/steel/use.pack.js")
  script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11")  
