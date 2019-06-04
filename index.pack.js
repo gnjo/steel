@@ -1202,7 +1202,7 @@ keyCmd(document.querySelector('textarea'))
     let el=fn.i3('<div class="modal"></div>').a2(document.body)
     planeList(el,(e)=>{
       let id=e.target.id
-      let base='https://gnjo.github.io/freenote/freenote.html'
+      let base='https://gnjo.github.io/steel/steel.html'
       ,p='?id='+id
       window.open(base+p,'_blank');
       })
