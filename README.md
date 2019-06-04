@@ -15,6 +15,8 @@ steel
  // script(src="https://gnjo.github.io/getTogist.js")
  //script(src="https://gnjo.github.io/jplex/jplex.js?v=8") 
  //script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
+https://codepen.io/gnjo/pen/dEdWze.css?steel=1
+https://codepen.io/gnjo/pen/dEdWze.js?steel=1  
 ```
 # 拡張
 ```
