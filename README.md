@@ -15,7 +15,7 @@ steel
  // script(src="https://gnjo.github.io/getTogist.js")
  script(src="https://gnjo.github.io/jplex/jplex.js?v=8") 
  script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
- script(src="https://codepen.io/gnjo/pen/NVMGeR.js?lexer=1") 
+ //script(src="https://codepen.io/gnjo/pen/NVMGeR.js?lexer=1") 
 ```
 # 拡張
 ```
