@@ -16,7 +16,7 @@ steel
  // script(src="https://gnjo.github.io/CyPk/dropandpop.js?v=1")
  // script(src="https://gnjo.github.io/getTogist.js")
  script(src="https://gnjo.github.io/jplex/jplex.js?v=7")  
- script(src="https://gnjo.github.io/editable/editable.js?v=17")
+ script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
  script(src="https://codepen.io/gnjo/pen/NVMGeR.js?lexer=1") 
 https://codepen.io/gnjo/pen/dEdWze.css?steel=1
 https://codepen.io/gnjo/pen/dEdWze.js?steel=1 
