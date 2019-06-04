@@ -2,20 +2,19 @@
 steel
 
 ```
- link(href="https://codepen.io/gnjo/pen/arXVoG.css?lcr=1" rel="stylesheet")
- script(src="https://codepen.io/gnjo/pen/arXVoG.js?lcr=1")
- script(src="https://gnjo.github.io/use.js?v=1")
- script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11") 
- script(src="https://gnjo.github.io/steel/use.pack.js?v=1")
+ https://codepen.io/gnjo/pen/arXVoG.css?lcr=1
+ https://codepen.io/gnjo/pen/arXVoG.js?lcr=1
+ https://gnjo.github.io/use.js?v=1
+ https://gnjo.github.io/steel/use.pack.js?v=4
+ //script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11") 
  // script(src="https://gnjo.github.io/keyCmd.js")
  // script(src="https://gnjo.github.io/filter.js?v=2")
  // script(src="https://gnjo.github.io/imgc.js") 
  // script(src="https://gnjo.github.io/imageReader.js")
  // script(src="https://gnjo.github.io/CyPk/dropandpop.js?v=1")
  // script(src="https://gnjo.github.io/getTogist.js")
- script(src="https://gnjo.github.io/jplex/jplex.js?v=8") 
- script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
- //script(src="https://codepen.io/gnjo/pen/NVMGeR.js?lexer=1") 
+ //script(src="https://gnjo.github.io/jplex/jplex.js?v=8") 
+ //script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
 ```
 # 拡張
 ```
