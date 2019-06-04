@@ -6,6 +6,7 @@ steel
  https://gnjo.github.io/lcr/lcr.js
  https://gnjo.github.io/use.js?v=1
  https://gnjo.github.io/steel/use.pack.js?v=4
+ //script(src="https://gnjo.github.io/e.js?v=10")  
  //script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11") 
  // script(src="https://gnjo.github.io/keyCmd.js")
  // script(src="https://gnjo.github.io/filter.js?v=2")
