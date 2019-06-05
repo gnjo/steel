@@ -6,13 +6,11 @@ steel
  https://gnjo.github.io/lcr/lcr.js
  https://gnjo.github.io/use.js?v=1
  https://gnjo.github.io/steel/use.pack.js?v=4
- //script(src="https://gnjo.github.io/e.js?v=10")  
  //script(src="https://gnjo.github.io/interceptor/interceptor.js?v=11") 
  // script(src="https://gnjo.github.io/keyCmd.js")
  // script(src="https://gnjo.github.io/filter.js?v=2")
  // script(src="https://gnjo.github.io/imgc.js") 
  // script(src="https://gnjo.github.io/imageReader.js")
- // script(src="https://gnjo.github.io/CyPk/dropandpop.js?v=1")
  // script(src="https://gnjo.github.io/getTogist.js")
  //script(src="https://gnjo.github.io/jplex/jplex.js?v=8") 
  //script(src="https://gnjo.github.io/editable/editableEx.js?v=1")
