@@ -64,3 +64,9 @@ let app={}
 転換：さて、処で
 
 ```
+# 案edit
+```
+need edit=10
+
+https://gnjo.github.io/steel/steel.html?id=xyz&edit=10
+```
