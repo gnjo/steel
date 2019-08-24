@@ -1,5 +1,5 @@
 //
-let app=lcr("auto",/*'54rem'*/'44rem',"15rem")
+let app=lcr("auto",/*'54rem'*/'44rem',/*'20rem'*/'15rem')
 //calc ...
 ;(function(app){
  app.name='steel'
