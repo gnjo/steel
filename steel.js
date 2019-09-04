@@ -2,6 +2,7 @@
 v1.0 make
 v1.x ...
 v2.0 app.opt add
+v2.1 bugfix
 */
 let app=lcr("auto",/*'54rem'*/'44rem',/*'20rem'*/'15rem')
 //calc ...
@@ -177,7 +178,8 @@ let app=lcr("auto",/*'54rem'*/'44rem',/*'20rem'*/'15rem')
 //save load
 ;(function(app){
  
- app.opt=JSON.parse(fn.getparam('opt',location.href))
+ app.optname=fn.getparam('opt',location.href)
+ app.opt=JSON.parse(localStorage.getItem(app.optname))
  var //basefile='steel.txt'
  notefile=app.opt.sub//'note.txt'
  ,storyfile=app.opt.main//'story.txt'
