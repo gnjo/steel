@@ -1,8 +1,13 @@
 /**/
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
 * {
   font-family:"Sawarabi Mincho",sans-serif,monospace;  
+}*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese');
+* {
+  font-family:"Noto Serif JP",serif,monospace;  
 }
+
 #left, #right {
   color: #789/*#456*/;
 }
