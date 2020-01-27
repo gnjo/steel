@@ -3,6 +3,9 @@
 * {
   font-family:"Sawarabi Mincho",sans-serif,monospace;  
 }
+#left, #right {
+  color: #789/*#456*/;
+}
 #center {
   color: #e3e3e3;
 }
