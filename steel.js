@@ -4,7 +4,7 @@ v1.x ...
 v2.0 app.opt add
 v2.1 bugfix
 */
-let app=lcr("auto",/*'54rem'*/'44rem',/*'20rem'*/'15rem')
+let app=lcr("auto",/*'54rem'*/'44rem','20rem'/*'15rem'*/)
 //calc ...
 ;(function(app){
  app.name='steel'
