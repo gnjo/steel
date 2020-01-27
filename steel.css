@@ -1,4 +1,8 @@
 /**/
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
+* {
+　font-family: 'Sawarabi Mincho',sans-serif,monospace;  
+}
 #center {
   color: #e3e3e3;
 }
@@ -25,7 +29,7 @@
   top: 0;
   right: 4px;
   content: "[" attr(data-lines2) "/34]";
-  color: #456;
+  color: #789;/*#456;*/
 }
 
 .suptext {
@@ -34,11 +38,11 @@
 }
 
 .wipe {
-  color: #456;
+  color: #789;/*#456;*/
 }
 
 .suptext, .ed[data-type="note"] {
-  color: #456;
+  color: #789;/*#456;*/
   background-color: initial;
   padding: 1rem 1rem;
 }
@@ -144,7 +148,7 @@ color:white;
   bottom: 0;
   right: 0px;
   position: fixed;
-  color: #456;
+  color: #789;/*#456;*/
   transition: color 2s linear;
 }
 
