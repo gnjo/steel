@@ -3,9 +3,21 @@
 * {
   font-family:"Sawarabi Mincho",sans-serif,monospace;  
 }*/
+/*
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap&subset=japanese');
 * {
   font-family:"Noto Serif JP",serif,monospace;  
+}
+*/
+@font-face {
+ font-family: makia;
+ src: url("https://gnjo.github.io/boxdrawing/sandbox/makina.otf") format("opentype");
+ font-weight: normal;
+ font-style: monospace;
+ /*need line-height:1.0*/
+}
+* {
+  font-family:makia,monospace;  
 }
 
 #left, #right {
