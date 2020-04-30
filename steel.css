@@ -9,28 +9,30 @@
   font-family:"Noto Serif JP",serif,monospace;  
 }
 */
-/*
 @font-face {
- font-family: makia;
- src: url("https://gnjo.github.io/boxdrawing/sandbox/makina.otf") format("opentype");
- font-weight: normal;
- font-style: monospace;
- /*need line-height:1.0*/
-}*/
-
-@font-face {
- font-family: cyberpunk;
+ font-family: makina;
  src: url("https://gnjo.github.io/cyberpunk/makina.otf") format("opentype");
  font-weight: normal;
  font-style: monospace;
 }
+
+@font-face {
+ font-family: cyberpunk;
+ src: url("https://gnjo.github.io/cyberpunk/Iceberg.ttf") format("truetype");
+ font-weight: normal;
+ font-style: monospace;
+ unicode-range:U+0000-007F;/* U+2019-FFE5;*//*over write latin*/
+}
+
+/*
 @font-face {
  font-family: cyberpunk;
  src: url("https://gnjo.github.io/cyberpunk/ShareTechMono.ttf") format("truetype");
  font-weight: normal;
  font-style: monospace;
- unicode-range:U+0000-007F;/* U+2019-FFE5;*//*over write latin*/
+ unicode-range:U+0000-007F;
 }
+*/
 
 * {
   font-family:cyberpunk,monospace;  
