@@ -80,7 +80,7 @@
 }
 
 .suptext, .ed[data-type="note"] {
-  color: #789;/*#456;*/
+  color: #cdf; /*#789;*/ /*#456;*/
   background-color: initial;
   padding: 1rem 1rem;
 }
