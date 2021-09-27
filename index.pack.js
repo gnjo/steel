@@ -1072,7 +1072,7 @@ ${title}</li>
  }
  function entry(plane,caller){
   let board=fn.i3('<ol class="index"></ol>')
-  ,n=fn.i3(`<li style="order:1" ><label class="new">NEW </label><label class="upd">UPDATE</label></li>`)
+  ,n=fn.i3(`<li style="order:1" ><label class="new">NEW </label><label class="upd">UPDATE</label><label class="wipe">WIPE</label></li>`)
   ,ne=async()=>{
    let str='＃＊新規ストーリー',nos='＃＊新規ノート'
    let a=await togist(str,void 0,'story.txt',str)
@@ -1103,11 +1103,17 @@ ${title}</li>
    }
    ;ary=void 0;
   }
+  ,wipe=()=>{
+   fn.qa('.gistid').filter(d=> parseInt(d.getAttribute('line'))<200).foreach(d=>d.style.display='none');
+  }
   ,init=()=>{
    //board.innerHTML=''
    fn.empty(board)
    n.q('.new').onclick=ne;
    n.q('.upd').onclick=upd;
+   //
+   n.q('.wipe').onclick=wipe;
+   //
    n.a2(board)   
   }
   init();
